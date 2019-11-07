@@ -1,4 +1,4 @@
-# HP-EliteBook 850 G5 Hackintosh
+# HP EliteBook 850 G5 Hackintosh
 
 A HP EliteBook 850 G5 Hackintosh running Mojave 10.14.6.
 
