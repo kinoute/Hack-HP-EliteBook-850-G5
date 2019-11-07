@@ -35,7 +35,7 @@ I had the change to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ## Doesn't work / Not tested
 
-* **Thunderbolt 3 / USB-C :** Tested a dock doesn't, doesn't work.
+* **Thunderbolt 3 / USB-C :** Tested a dock, doesn't work.
 * **Webcam :** The camera seens recognized by the system but doesn't work
 * **WIFI :** Need to change the internal card or use a USB Dongle. I use the [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) with this [kext](https://github.com/chris1111/Wireless-USB-Adapter-Clover).
 
