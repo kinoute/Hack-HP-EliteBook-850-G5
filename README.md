@@ -24,20 +24,22 @@ I had the change to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ## What works
 
-* Sound (in and out)
+* Speakers
+* Sound output (line out)
 * Trackpad with gestures
-* USB Ports
+* USB 3 Ports
+* USB-C (tested with a HP Docking station)
 * LAN/Ethernet
 * Fn keys to change volume or brightness
 * Battery percentage/status
 * Sleep/Wake-up
 * HDMI Out
+* HP Sure View (makes your screen difficult for onlookers to view from the sides)
 
 ## Doesn't work / Not tested
 
-* **Thunderbolt 3 / USB-C :** Tested a dock, doesn't work.
 * **Webcam :** The camera seens recognized by the system but doesn't work
-* **WIFI :** Need to change the internal card or use a USB Dongle. I use the [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) with this [kext](https://github.com/chris1111/Wireless-USB-Adapter-Clover).
+* **WIFI :** Need to change the internal card. I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop (drivers for macOS [here](https://www.tp-link.com/us/support/download/tl-wn725n/#Driver)).
 
 _Work in progress.._
 
