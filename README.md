@@ -11,7 +11,7 @@ I have already two Hackintoshes :
 * A desktop [Hackintosh](https://github.com/kinoute/Hack-Z370-HD3P-i5-8400) at home with a i5-8400 and a Gigabyte Z370-HD3P ;
 * A Dell Latitude E6430 [Hackintosh](https://github.com/kinoute/Hack-Dell-Latitude-E6430) I was given at work.
 
-I had the change to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn't resist, again, to install macOS on it.
+I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn't resist, again, to install macOS on it.
 
 ## Laptop Specs
 
@@ -117,6 +117,8 @@ It will output some table with the following structure "Product | Serial | Board
 ### Internet
 
 You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace the internal card with a compatible one. You can find plenty of them on eBay. Otherwise, the cheaper and quicker solution is to use a USB Dongle WIFI. I own a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) and it works great. Once you have plugged it in one of your USB ports, install the drivers. You can find them for Mojave here: https://www.tp-link.com/us/support/download/tl-wn725n/#Driver. Reboot, done.
+
+## HIDPI / Retina Resolution
 
 _Work in progress.._
 
