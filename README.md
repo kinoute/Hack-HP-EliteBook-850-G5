@@ -25,7 +25,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 ## What works
 
 * Speakers
-* Sound output (line out)
+* Headphones output
 * Trackpad with gestures
 * USB 3 Ports
 * USB-C (tested with a HP Docking station)
@@ -45,17 +45,9 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ### BIOS Settings
 
-BIOS in this particular laptop was difficult to setup. You have to disable a lot of things, especially "Secure Boot". In order to do that, you will have to enter a PIN Code after the change to validate that indeed, you really want to disable this.
+BIOS in this particular laptop was difficult to setup. You have to disable a lot of things, especially "Secure Boot". In order to do that, you will have to enter a PIN Code after the change to validate that, indeed, you really want to disable it.
 
-My BIOS Settings in general are:
-
-- "VT-d" (virtualization for directed i/o) should be disabled if possible (the config.plist includes dart=0 in case you can't do this)
-- "secure boot " should be disabled
-- "legacy boot" optional (recommend enabled, but boot UEFI if you have it)
-- "fast boot" (if available) should be disabled.
-- "boot from USB" or "boot from external" enabled
-- SATA mode (if available) should be AHCI
-- TPM should be disabled
+My BIOS Settings in general are available as pictures here : [BIOS](BIOS/README.md)
 
 ### Creating the USB Installer
 
@@ -94,7 +86,7 @@ Download my EFI Folder from this repo and copy it (replace, not merge) to your U
 
 ## macOS Mojave Installation
 
-Reboot your Laptop with the USB Installer stick plugged in. Press `ESC`, choose `Boot Menu (F10)` and pick your USB Stick, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
+Reboot your Laptop with the USB Installer stick plugged in. Press `ESC`, choose `Boot Menu (F9)` and pick your USB Stick, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
 
 Once you reach the Mojave Installer, launch the Disk Utility app and in the menubar, in the "presentation" menu (or similar, don't remember the name), enable "Show all devices". That way, we will see our internal hard drive completely in Disk Utility. Format it as Mac OS X Extended (Journaled) and pick the scheme "GUID Partition Map" or similar.
 
@@ -120,7 +112,9 @@ You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace
 
 ## HIDPI / Retina Resolution
 
-_Work in progress.._
+You can enable retina options with this FHD monitor by using this script: https://github.com/xzhih/one-key-hidpi. 
+
+Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 which is a good compromise between space and crispy font.
 
 ## Benchmarks
 
