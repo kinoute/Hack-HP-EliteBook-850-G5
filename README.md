@@ -20,7 +20,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 * Samsung M471A2K43CB1-CTD 32GB DDR4-RAM SDRAM SO-DIMM @ 2400 Mhz
 * Intel UHD Graphics 620 1536 Mb
 * Toshiba XG5 KXG50ZNV1T02 1TB NVMe SSD PCIe 3.1a 
-* 15.6" FHD IPS anti-glare LED-backlit with HD camera (used as retina display, see below)
+* 15.6" FHD IPS anti-glare LED-backlit @ 120 Hz (used as retina display, see below)
 
 ## What works
 
@@ -115,7 +115,7 @@ You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace
 
 You can enable retina options with this FHD monitor by using this script: https://github.com/xzhih/one-key-hidpi. 
 
-Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 which is a good compromise between space and crispy font.
+Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 @ 120 Hz which is a good compromise between space and crispy font.
 
 ## The Beast
 
