@@ -67,6 +67,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -79,6 +81,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -91,6 +95,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -103,6 +109,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUhDMQ==
@@ -115,6 +123,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUhDMg==
@@ -127,6 +137,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -153,6 +165,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SERBUw==
@@ -165,6 +179,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change B0D3 to HDAU</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QjBEMw==
@@ -177,6 +193,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(UPRW,2,S) to XPRW</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					VVBSVwpwEg==
@@ -189,6 +207,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GPRW,2,N) to XPRW</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R1BSVwI=
@@ -201,6 +221,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change LANC Method(_PRW,0,Serialized) to Method(XPRW,0,..)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					AAAZABQfX1BSVwg=
@@ -213,6 +235,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _PTS to ZPTS</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1BUUwE=
@@ -225,6 +249,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _WAK to ZWAK</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1dBSwE=
@@ -237,6 +263,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change _WAK to ZWAK (G3)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1dBSwk=
@@ -249,6 +277,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTIF,1,Serialized) to BTI0</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QlRJRgl5Cg==
@@ -261,6 +291,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTIF,1,Serialized) to BTI0 (G3)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QlRJRgl5AWg=
@@ -273,6 +305,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTST,2,Serialized) to BTS1</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QlRTVAp5Cg==
@@ -285,6 +319,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(BTST,2,Serialized) to BTS1 (G3)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					QlRTVAp5AWg=
@@ -297,6 +333,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(SBTC,3,NotSerialized) to SBT2</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					U0JUQwNwDQ==
@@ -309,6 +347,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GBTI,1,NotSerialized) to GBT3</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0JUSQFwDQ==
@@ -321,6 +361,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GBTC,0,NotSerialized) to GBT4</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0JUQwBwDQ==
@@ -333,6 +375,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(ITLB,0,NotSerialized) to ITL1 (for G4)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					SVRMQgA=
@@ -345,6 +389,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GACW,0,NotSerialized) to XACW (for G4 latest BIOS)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0FDVwA=
@@ -357,6 +403,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(GBAW,0,NotSerialized) to XBAW (for G4 latest BIOS)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					R0JBVwA=
@@ -369,6 +417,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Name(NBTI,..) to NBT5</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					CE5CVEk=
@@ -381,6 +431,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(\_SB.BAT0,...) to Notify(_SB.BATC,...)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					hlwuX1NCX0JBVDA=
@@ -393,6 +445,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(\_SB.BAT1,...) to Notify(_SB.BATC,...)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					hlwuX1NCX0JBVDE=
@@ -405,6 +459,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(BAT0,...) to Notify(BATC,...)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					hkJBVDA=
@@ -417,6 +473,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Notify(BAT1,...) to Notify(BATC,...)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					hkJBVDE=
@@ -429,6 +487,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(RDSS,1,S) to XDSS</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					UkRTUwk=
@@ -441,6 +501,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EC Method(_REG,2,N) to XREG, 4x40s, 4x30s</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1JFRwKgKJNoCgM=
@@ -453,6 +515,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>change EC Method(_REG,2,N) to XREG, 4x0 G3 Skylake</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1JFRwKgFJNoCgM=
@@ -465,6 +529,8 @@
 				<dict>
 					<key>Comment</key>
 					<string>RTC fix</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					RwFwAHAAAQg=
@@ -510,16 +576,16 @@
 	<dict>
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 dart=0 -igfxnohdmi</string>
-		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
 		<key>Debug</key>
 		<false/>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -532,12 +598,14 @@
 		<dict>
 			<key>PciRoot(0)/Pci(0x02,0)</key>
 			<dict>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
+				<key>framebuffer-con1-alldata</key>
+				<data>
+				AQUKAAAIAACHAQAAAgQKAAAIAACHAQAA
+				</data>
 				<key>framebuffer-con1-enable</key>
 				<integer>1</integer>
-				<key>framebuffer-con1-alldata</key>
-				<data>AQUKAAAIAACHAQAAAgQKAAAIAACHAQAA</data>
+				<key>framebuffer-patch-enable</key>
+				<integer>1</integer>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -557,12 +625,22 @@
 			<key>Entries</key>
 			<array>
 				<dict>
+					<key>Disabled</key>
+					<false/>
 					<key>Hidden</key>
 					<true/>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
 					<key>Type</key>
 					<string>OSXRecovery</string>
 				</dict>
 				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
 					<key>Title</key>
 					<string>Windows</string>
 					<key>Type</key>
@@ -626,6 +704,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.13 release kernel (credit vit9696)</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				igKEwHRE
@@ -640,6 +720,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
 				<data>
 				igKEwHRC
@@ -665,6 +747,8 @@
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
@@ -697,7 +781,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-    <true/>
+		<string>Yes</string>
 	</dict>
 </dict>
 </plist>

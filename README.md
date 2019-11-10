@@ -35,6 +35,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 * Sleep/Wake-up
 * HDMI Out
 * HP Sure View (makes your screen difficult for onlookers to view from the sides)
+* FileVault 2 (you can use it, kexts for that are already in my EFI folder)
 
 ## Doesn't work / Not tested
 
