@@ -18,9 +18,9 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 * macOS Mojave 10.14.6
 * Intel i5-8350U vPro @ 1.7 Ghz, TurboBoost @ 3.6 Ghz (4 cores, 8 threads)
 * Samsung M471A2K43CB1-CTD 32GB DDR4-RAM SDRAM SO-DIMM @ 2400 Mhz
-* Intel HD Graphics 620 1536 Mb
+* Intel UHD Graphics 620 1536 Mb
 * Toshiba XG5 KXG50ZNV1T02 1TB NVMe SSD PCIe 3.1a 
-* 15.6" FHD IPS anti-glare LED-backlit with HD camera (1920 x 1080)
+* 15.6" FHD IPS anti-glare LED-backlit with HD camera (used as retina display, see below)
 
 ## What works
 
