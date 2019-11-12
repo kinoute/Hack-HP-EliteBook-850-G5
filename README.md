@@ -132,7 +132,7 @@ To use the DisplayPort outputs, I had to install the DisplayLink Drivers for Moj
 
 Unfortunately, I wasn't able to run two displayport monitors from the dock. Only one seems to work. 
 
-**Workaround:** Use one external monitor with the built-in HDMI output and another one with the 1 displayport from the dock. I have then 3 screens (internal screen + 2 external monitors) at work!
+**Workaround:** Use one external monitor with the built-in HDMI output and another one with the 1 displayport from the dock. I have then 3 screens (internal screen + 2 external monitors)!
 
 ![](screenshots/dock-monitors.jpg)
 
