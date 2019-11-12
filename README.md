@@ -28,7 +28,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 * Headphones output
 * Trackpad with gestures
 * USB 3 Ports
-* USB-C (tested with a HP Docking station)
+* USB-C (tested with a HP Docking station, see [below](#Dock))
 * LAN/Ethernet
 * Fn keys to change volume or brightness
 * Battery percentage/status
@@ -116,6 +116,32 @@ You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace
 You can enable retina options with this FHD monitor by using this script: https://github.com/xzhih/one-key-hidpi. 
 
 Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 @ 120 Hz which is a good compromise between space and crispy font.
+
+## Dock
+
+I was able to use this laptop with a [HP USB-C Universal Dock](https://store.hp.com/us/en/pdp/hp-usb-c-universal-dock) connected to the Thunderbolt 3 port. What works:
+
+* Ethernet
+* USB 2 ports
+* USB 3 ports
+* 1 displayPort
+* Recharging the laptop
+* Audio output
+
+To use the DisplayPort outputs, I had to install the DisplayLink Drivers for Mojave. You can find them here: https://www.displaylink.com/downloads/file?id=1367.
+
+Unfortunately, I wasn't able to run two displayport monitors from the dock. Only one seems to work. 
+
+**Workaround:** Use one external monitor with the built-in HDMI output and another one with the 1 displayport from the dock. I have then 3 screens (internal screen + 2 external monitors) at work!
+
+![](screenshots/dock-monitors.jpg)
+
+If you still struggle to make your Docking station work, please have a look at these two repos:
+
+* Thunderbolt 3 Unblocker : https://github.com/rgov/Thunderbolt3Unblocker
+* macOS IOElectrify : https://github.com/the-darkvoid/macOS-IOElectrify
+
+And try to install them on your own.
 
 ## The Beast
 
