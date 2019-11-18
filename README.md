@@ -41,6 +41,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 * **Webcam :** The camera seens recognized by the system but doesn't work
 * **WIFI :** Need to change the internal card. I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop (drivers for macOS [here](https://www.tp-link.com/us/support/download/tl-wn725n/#Driver)).
+* **Bluetooth :** Not tested, I disabled it in the BIOS.
 
 ## Installation
 
@@ -83,7 +84,7 @@ Once we have a USB Installer, we need to install Clover on it, with our `config.
 
 ### Copy my EFI Folder
 
-Download my EFI Folder from this repo and copy it (replace, not merge) to your USB Installer existing EFI Folder. It will replace your EFI folder that was created by Clover during the installation, copy all the necessary kext files and my `config.plist` file as well.
+Download my EFI Folder from this repo and copy it (replace, not merge) to your USB Installer existing EFI Folder in the EFI Partition. It will replace your EFI folder that was created by Clover during the installation, copy all the necessary kext files and my `config.plist` file as well.
 
 **Note:** I use the [Clover-Minimal Theme](https://github.com/al3xtjames/clover-theme-minimal) in my `config.plist` so if you only download my `config.plist`, be sure to either install this theme or change it to something you already have.
 
