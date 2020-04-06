@@ -158,6 +158,14 @@ If you still struggle to make your Docking station work, please have a look at t
 
 And try to install them on your own.
 
+## Catalina
+
+As I use this laptop for work and everything is running almost fine, I don't plan for now to update to Catalina for these reasons and some others. I use some work-applications that work perfectly on Mojave and are not supported yet on 10.15.
+
+Nevetherless, if you're willing to install Catalina on this machine, you can try my EFI (which seems to work) or the OpenCore alternative made by [kecinzer](https://github.com/kecinzer) which seems to run really well too. 
+
+His setup is available here: https://github.com/kecinzer/hpelitebook850g5-opencore
+
 ## The Beast
 
 ![](screenshots/beast.jpg)
@@ -170,5 +178,6 @@ Link: https://browser.geekbench.com/v4/cpu/14899859
 
 ## Credits
 
-Huge thanks to [kecinzer](https://www.tonymacx86.com/members/kecinzer.1373007/) from tonymacx86 for making his EFI available and fixing the touchpad issues. Props to him for everything.
+- Huge thanks to [kecinzer](https://www.tonymacx86.com/members/kecinzer.1373007/) from tonymacx86 for making his EFI available and fixing the touchpad issues. Props to him for everything.
+- Thanks to [Mcharlsto](https://github.com/Mcharlsto) for providing fix to models with Samsung PM981 SSDs.
 
