@@ -96,7 +96,7 @@ Download my EFI Folder from this repo and copy it (replace, not merge) to your U
 
 Reboot your Laptop with the USB Installer stick plugged in. Press `ESC`, choose `Boot Menu (F9)` and pick your USB Stick, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
 
-**Note:** If you encounter early kernel panics during this step, check if your main hard drive is not a Samsung PM981 SSD. It it is, please install the `NVMeFix.kext` available here in the `Others` folder. Read [below](#samsung-pm981-ssds) for more informations.
+**Note:** If you encounter early kernel panics during this step, check if your main hard drive is not a Samsung PM981 SSD. If it is, please install the `NVMeFix.kext` available here in the `Others` folder. Read [below](#samsung-pm981-ssds) for more informations.
 
 Once you reach the Mojave Installer, launch the Disk Utility app and in the menubar, in the "presentation" menu (or similar, don't remember the name), enable "Show all devices". That way, we will see our internal hard drive completely in Disk Utility. Format it as Mac OS X Extended (Journaled) and pick the scheme "GUID Partition Map" or similar.
 
