@@ -158,6 +158,12 @@ And try to install them on your own.
 
 Link: https://browser.geekbench.com/v4/cpu/14899859
 
+## Samsung PM981 SSDs
+
+HP have begun shipping these laptops with Samsung PM981 SSDs, which can cause kernel panicks on boot and during the macOS installer. To fix this, install version 1.02+ of NVMEFix : https://github.com/acidanthera/NVMeFix
+
+As of 6th April 2020, the NVMEFix build script has not yet run for version 1.02. A copy of the compiled kext is included in this repository, just copy it into the CLOVER/kexts/other directory. Alternatively, compile your own using Xcode or wait until the official build is released.
+
 ## Credits
 
 Huge thanks to [kecinzer](https://www.tonymacx86.com/members/kecinzer.1373007/) from tonymacx86 for making his EFI available and fixing the touchpad issues. Props to him for everything.
