@@ -100,7 +100,7 @@ Download my EFI Folder from this repo and copy it (replace, not merge) to your U
 
 Reboot your Laptop with the USB Installer stick plugged in. Press `ESC`, choose `Boot Menu (F9)` and pick your USB Stick, it should boot to Clover. Pick your USB Installer in the menu, the Mojave Installer will start to load. You can encounter various graphics glitches during this step, it's fine.
 
-**Note:** If you encounter early kernel panics during this step, check if your main hard drive is not a Samsung PM981 SSD. If it is, please install the `NVMeFix.kext` available here in the `Others` folder. Read [below](#samsung-pm981-ssds) for more informations.
+HP have begun shipping these laptops with Samsung PM981 SSDs, which can cause kernel panicks on boot and during the macOS installer. To fix this, the `NVMEFix.kext` was added in this config.
 
 Once you reach the Mojave Installer, launch the Disk Utility app and in the menubar, in the "presentation" menu (or similar, don't remember the name), enable "Show all devices". That way, we will see our internal hard drive completely in Disk Utility. Format it as Mac OS X Extended (Journaled) and pick the scheme "GUID Partition Map" or similar.
 
@@ -124,17 +124,13 @@ It will output some table with the following structure "Product | Serial | Board
 
 You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace the internal card with a compatible one. You can find plenty of them on eBay. Otherwise, the cheaper and quicker solution is to use a USB Dongle WIFI. I own a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) and it works great. Once you have plugged it in one of your USB ports, install the drivers. You can find them for Mojave here: https://www.tp-link.com/us/support/download/tl-wn725n/#Driver. Reboot, done.
 
-## HIDPI / Retina Resolution
+### HIDPI / Retina Resolution
 
 You can enable retina options with this FHD monitor by using this script: https://github.com/xzhih/one-key-hidpi. 
 
 Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 @ 120 Hz which is a good compromise between space and crispy font.
 
-## Samsung PM981 SSDs
-
-HP have begun shipping these laptops with Samsung PM981 SSDs, which can cause kernel panicks on boot and during the macOS installer. To fix this, the `NVMEFix.kext` was added in this config.
-
-## Dock
+### Dock
 
 I was able to use this laptop with a [HP USB-C Universal Dock](https://store.hp.com/us/en/pdp/hp-usb-c-universal-dock) connected to the Thunderbolt 3 port. What works:
 
