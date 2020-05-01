@@ -51,9 +51,13 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 BIOS with this particular laptop was difficult to setup. You have to disable a lot of things, especially "Secure Boot". In order to do that, you will have to enter a PIN Code after the change to validate that, indeed, you really want to disable it.
 
-**My BIOS Version:** Q78 Ver. 01.08.01 07/18/2019
+**BIOS Version:** Q78 Ver. 01.10.01 March 6th, 2020
 
-My BIOS Settings are available as pictures here : [BIOS](BIOS/README.md)
+My BIOS Settings are available as pictures here : [BIOS](BIOS/README.md).
+
+If you are using a version older than 01.10.01, be careful if you want to update your BIOS to 01.10.01 or newer. They changed something and you have to add an ACPI Patch in your `config.plist` before the update, otherwise macOS won't boot.
+
+This is already done in my `config.plist` available in this repo as of April 30th, 2020.
 
 ### Creating the USB Installer
 
@@ -128,9 +132,7 @@ Staying at 1920x1080 resolution on this laptop is quite hard because the text is
 
 ## Samsung PM981 SSDs
 
-HP have begun shipping these laptops with Samsung PM981 SSDs, which can cause kernel panicks on boot and during the macOS installer. To fix this, install version 1.02+ of NVMEFix : https://github.com/acidanthera/NVMeFix.
-
-As of 6th April 2020, the NVMEFix build script has not yet run for version 1.02. [A copy of the compiled kext](Others) is included in this repository (`Others` folder), just copy it into the `EFI/CLOVER/kexts/Other` directory. Alternatively, compile your own using Xcode or wait until the official build is released.
+HP have begun shipping these laptops with Samsung PM981 SSDs, which can cause kernel panicks on boot and during the macOS installer. To fix this, the `NVMEFix.kext` was added in this config.
 
 ## Dock
 
@@ -158,11 +160,11 @@ If you still struggle to make your Docking station work, please have a look at t
 
 And try to install them on your own.
 
-## Catalina
+## Future & Catalina
 
-As I use this laptop for work and everything is running almost fine, I don't plan for now to update to Catalina for these reasons and some others. I use some work-applications that work perfectly on Mojave and are not supported yet on 10.15.
+As I use this laptop for work and everything is running almost fine, I don't plan for now to update to Catalina for these reasons and some others. I use some work-applications that work perfectly on Mojave and are not supported yet on 10.15. I can't take the risk of breaking something important.
 
-Nevetherless, if you're willing to install Catalina on this machine, you can try my EFI (which seems to work) or the OpenCore alternative made by [kecinzer](https://github.com/kecinzer) which seems to run really well too. 
+Nevertheless, if you're willing to install Catalina on this machine, you can try my EFI (which seems to work with minor changes) or the future-proof OpenCore alternative made by [kecinzer](https://github.com/kecinzer) which seems to run really well too. 
 
 His setup is available here: https://github.com/kecinzer/hpelitebook850g5-opencore
 
@@ -178,6 +180,6 @@ Link: https://browser.geekbench.com/v4/cpu/14899859
 
 ## Credits
 
-- Huge thanks to [kecinzer](https://www.tonymacx86.com/members/kecinzer.1373007/) from tonymacx86 for making his EFI available and fixing the touchpad issues. Props to him for everything.
+- Huge thanks to [kecinzer](https://github.com/kecinzer) for making his EFI available. This Clover Version is almost all of his work.
 - Thanks to [Mcharlsto](https://github.com/Mcharlsto) for providing fix to models with Samsung PM981 SSDs.
 
