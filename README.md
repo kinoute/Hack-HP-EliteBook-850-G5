@@ -182,4 +182,4 @@ Link: https://browser.geekbench.com/v4/cpu/14899859
 
 - Huge thanks to [kecinzer](https://github.com/kecinzer) for making his EFI available. This Clover Version is almost all of his work.
 - Thanks to [Mcharlsto](https://github.com/Mcharlsto) for providing fix to models with Samsung PM981 SSDs.
-
+- Thanks to [Joaotcs](https://github.com/Joaotcs) for providing fix to update the BIOS without breaking macOS.
