@@ -130,6 +130,8 @@ You can enable retina options with this FHD monitor by using this script: https:
 
 Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 @ 120 Hz which is a good compromise between space and crispy font.
 
+**Note:** I have a 120 Hz panel, your model most likely doesn't have it (unless you bought your laptop with this option). Therefore, don't try to run it with this refresh rate, you are stuck at 60 Hz.
+
 ### Dock
 
 I was able to use this laptop with a [HP USB-C Universal Dock](https://store.hp.com/us/en/pdp/hp-usb-c-universal-dock) connected to the Thunderbolt 3 port. What works:
@@ -179,3 +181,4 @@ Link: https://browser.geekbench.com/v4/cpu/14899859
 - Huge thanks to [kecinzer](https://github.com/kecinzer) for making his EFI available. This Clover Version is almost all of his work.
 - Thanks to [Mcharlsto](https://github.com/Mcharlsto) for providing fix to models with Samsung PM981 SSDs.
 - Thanks to [Joaotcs](https://github.com/Joaotcs) for providing fix to update the BIOS without breaking macOS.
+
