@@ -130,7 +130,7 @@ You can enable retina options with this FHD monitor by using this script: https:
 
 Staying at 1920x1080 resolution on this laptop is quite hard because the text is too small to my taste. After applying this script, I use the retina resolution of 1680x944 @ 120 Hz which is a good compromise between space and crispy font.
 
-**Note:** I have a 120 Hz panel, your model most likely doesn't have it (unless you bought your laptop with this option). Therefore, don't try to run it with this refresh rate, you are stuck at 60 Hz.
+**Note:** I have a 120 Hz panel, your model most likely doesn't have it unless you bought your laptop with this option. Therefore, don't try to run it with this refresh rate, you are stuck at 60 Hz.
 
 ### Dock
 
