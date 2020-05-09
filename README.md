@@ -39,7 +39,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ## Doesn't work / Not tested
 
-* **Webcam :** The camera seens recognized by the system but doesn't work
+* **Webcam :** Depends of your hardware. Can work or not.
 * **WIFI :** Need to change the internal card. I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop (drivers for macOS [here](https://www.tp-link.com/us/support/download/tl-wn725n/#Driver)).
 * **Bluetooth :** Not tested, I disabled it in the BIOS.
 * **Smart Card Reader :** Not tested, I disabled it in the BIOS.
