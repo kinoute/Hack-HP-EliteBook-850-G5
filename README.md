@@ -69,7 +69,7 @@ While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Ex
 Once the download is done, open the Terminal and write:
 
 ```bash
-sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB`
+sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB
 ```
 
 It will copy the installer to your USB Stick and make it bootable. It can take some time.
