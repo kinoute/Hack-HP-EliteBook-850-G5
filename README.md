@@ -24,7 +24,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ## What works
 
-* **WIFI & Bluetooth !** (Without any additional card, see [Internet](#Internet))
+* **WIFI & Bluetooth !** (Without changing internal card, see [Internet](#Internet))
 
 * Speakers
 * Headphones output
