@@ -24,6 +24,8 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ## What works
 
+* **WIFI & Bluetooth !** (Without any additional card, see [Internet](#Internet))
+
 * Speakers
 * Headphones output
 * Trackpad with gestures
@@ -39,9 +41,7 @@ I had the chance to put my hands on a nice HP EliteBook 850 G5 Laptop and couldn
 
 ## Doesn't work / Not tested
 
-* **Webcam :** Depends of your hardware. Can work or not.
-* **WIFI :** Need to change the internal card. I use a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) USB Dongle since I don't own the laptop (drivers for macOS [here](https://www.tp-link.com/us/support/download/tl-wn725n/#Driver)).
-* **Bluetooth :** Not tested, I disabled it in the BIOS.
+* **Webcam :** Depends of the Webcam vendor & model. Can work or not.
 * **Smart Card Reader :** Not tested, I disabled it in the BIOS.
 * **Joystick Mouse**: You don't need it anyway with a trackpad fully working.
 
@@ -68,7 +68,9 @@ While it's downloading, use Disk Utility to format your USB Drive as Mac OS X Ex
 
 Once the download is done, open the Terminal and write:
 
-`sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB`
+```bash
+sudo "/Applications/Install macOS Mojave.app/Contents/Resources/createinstallmedia" --volume /Volumes/USB`
+```
 
 It will copy the installer to your USB Stick and make it bootable. It can take some time.
 
@@ -122,7 +124,11 @@ It will output some table with the following structure "Product | Serial | Board
 
 ### Internet
 
-You can use the LAN/Ethernet which works OOTB. For the WIFI, you need to replace the internal card with a compatible one. You can find plenty of them on eBay. Otherwise, the cheaper and quicker solution is to use a USB Dongle WIFI. I own a [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) and it works great. Once you have plugged it in one of your USB ports, install the drivers. You can find them for Mojave here: https://www.tp-link.com/us/support/download/tl-wn725n/#Driver. Reboot, done.
+You can use the LAN/Ethernet port which works OOTB. For the WIFI, you have three options:
+
+* You can replace the internal card with a compatible one. You can find plenty of them on eBay. 
+* You can use a USB Dongle WIFI. I own a cheap [TP-Link-TL-WN725N](https://www.tp-link.com/us/home-networking/usb-adapter/tl-wn725n/) and it worked great. Once you have plugged it in one of your USB ports, install the drivers. You can find them for Mojave here: https://www.tp-link.com/us/support/download/tl-wn725n/#Driver. Reboot, done.
+* **NEW** 🔥: Some [talented developers](https://github.com/OpenIntelWireless) created kexts from Linux code to support Intel WIFI and Bluetooth Out Of The Box on macOS! This is the approach I now use and it works great! I can connect to 5Ghz WIFI Networks without any USB Dongle and Bluetooth works also with my phone. For the WIFI, you have to install the app [Heliport](https://github.com/OpenIntelWireless/HeliPort) that replicates macOS Wifi interface to select network etc. The 3 kexts for Wifi & Bluetooth are provided in my EFI already. This is an alpha release so some bugs might occur.
 
 ### HIDPI / Retina Resolution
 
